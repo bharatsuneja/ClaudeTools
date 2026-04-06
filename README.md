@@ -126,10 +126,10 @@ Get-ClaudeLogs -MCP
 Get-ClaudeLogs -MCP -Filter "[error]"
 
 # Specific MCP server log
-Get-ClaudeLogs -Server nyxis-dev
+Get-ClaudeLogs -Server MyMcpServer
 
 # Live tail a specific server
-Get-ClaudeLogs -Server nyxis-dev -Follow
+Get-ClaudeLogs -Server MyMcpServer -Follow
 
 # Live tail all MCP server logs (interleaved with [server-name] prefix)
 Get-ClaudeLogs -MCP -Follow
