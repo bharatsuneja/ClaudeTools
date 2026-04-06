@@ -1,0 +1,10 @@
+﻿# PowerShell compiled files
+*.psc1
+*.pssc
+*.cdxml
+
+# Test output
+TestResults/
+
+# VS Code
+.vscode/
